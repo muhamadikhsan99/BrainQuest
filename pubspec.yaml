@@ -1,0 +1,47 @@
+name: BrainQuest
+description: "Asah Otak Seru!"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1  # Tambahkan ini
+
+flutter_icons:
+  android: true  # Konfigurasi ikon hanya untuk Android
+  image_path: "assets/images/logoicon.png"  # Path ke ikon utama Anda
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/geografi.png    # Gambar untuk kategori Geografi
+    - assets/images/hewan.png       # Gambar untuk kategori Hewan
+    - assets/images/sejarah.png     # Gambar untuk kategori Sejarah
+    - assets/images/matematika.png  # Gambar untuk kategori Matematika
+    - assets/images/teknologi.png   # Gambar untuk kategori Teknologi
+    - assets/images/seni.png        # Gambar untuk kategori Seni
+    - assets/images/musik.png       # Gambar untuk kategori Musik
+    - assets/images/filsafat.png    # Gambar untuk kategori Filsafat
+    - assets/images/olahraga.png    # Gambar untuk kategori Olahraga
+    - assets/images/sastra.png      # Gambar untuk kategori Sastra
+    - assets/images/geografi_background.png
+    - assets/images/hewan_background.png
+    - assets/images/sejarah_background.png
+    - assets/images/matematika_background.png
+    - assets/images/teknologi_background.png
+    - assets/images/seni_background.png
+    - assets/images/musik_background.png
+    - assets/images/sastra_background.png
+    - assets/images/filsafat_background.png
+    - assets/images/olahraga_background.png
